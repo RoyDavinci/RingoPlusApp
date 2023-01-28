@@ -1,23 +1,15 @@
-/* eslint-disable react-native/no-inline-styles */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
  * @format
  */
-
+import 'react-native-gesture-handler';
 import React from 'react';
-import {Text, View} from 'react-native';
+import {AppNavigator} from './navigations/AppNavigator';
 
 function App(): JSX.Element {
-  return (
-    <View
-      style={{
-        backgroundColor: '#fff',
-      }}>
-      <Text>Welcome To A New App</Text>
-    </View>
-  );
+  return <AppNavigator />;
 }
 
 export default App;
