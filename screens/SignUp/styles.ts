@@ -8,11 +8,6 @@ export default StyleSheet.create({
     paddingLeft: 20,
     paddingRight: 20,
     marginTop: 200,
-    // display: 'flex',
-    // justifyContent: 'center',
-    // // alignItems: 'center',
-    // minHeight: '100%',
-    // width: '100%',
     color: '#fff',
   },
   imageContainer: {

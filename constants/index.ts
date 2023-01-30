@@ -1,6 +1,7 @@
 export const HOME = 'Home';
-export const CONTACT_USERS = 'ContactUsers';
-export const CONTACT_DETAILS = 'ContactDetails';
-export const LOGIN = 'Login';
+export const ACCOUNT = 'Account';
+export const WALLET = 'Wallet';
+export const HISTORY = 'History';
 export const SIGNUP = 'SignUp';
-export const SETTINGS = 'Settings';
+export const LOGIN = 'Login';
+export const WELCOME = 'Welcome';

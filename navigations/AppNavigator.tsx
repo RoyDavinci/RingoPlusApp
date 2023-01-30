@@ -9,6 +9,7 @@ export const AppNavigator = () => {
   const {isLoggedIn} = useContext(AuthContext);
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  console.log(isLoggedIn, isAuthenticated);
 
   useEffect(() => {
     const getUser = async () => {

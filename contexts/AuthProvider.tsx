@@ -10,12 +10,12 @@ export const AuthContext = createContext<AuthInterface>({
   setIsLoggedIn: () => {},
 });
 
-export const AuthProvider = () => {
+export const AuthProvider = ({children}: any) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <AuthContext.Provider value={{isLoggedIn, setIsLoggedIn}}>
-      AuthProvider
+      {children}
     </AuthContext.Provider>
   );
 };
